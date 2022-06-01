@@ -8,6 +8,9 @@ import Products from './pages/Products';
 import OrderCakes from './pages/OrderCakes';
 import Contacts from './pages/Contacts';
 import './styles/Navbar.css';
+import './styles/Home.css';
+
+
 
 function App() {
   return (
@@ -19,7 +22,7 @@ function App() {
         <Route path="/Produtos" element={<Products />} />
         <Route path="/Encomendar" element={<OrderCakes />} />
         <Route path="/Contactos" element={<Contacts />} />
-      </Routes >
+      </Routes>
     </div >
   );
 }
