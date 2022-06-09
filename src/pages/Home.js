@@ -17,7 +17,12 @@ function Home() {
             </section>
             <section className="grid">
                 <div className="grid-container">
-
+                    <div className="box1">One</div>
+                    <div className="box2"></div>
+                    <div className="box3">Tree</div>
+                    <div className="box4">Four</div>
+                    <div className="box5">Five</div>
+                    <div className="box6">Six</div>
                 </div>
             </section>
 
