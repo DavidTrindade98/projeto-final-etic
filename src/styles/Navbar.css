@@ -34,13 +34,15 @@ ul {
     font-size: 20px;
 }
 
-li:hover{
-    transform: scale(108%);
-}
-
 li {
     list-style-type: none;
     display: inline-flex;
 }
+
+li:hover{
+    transform: scale(108%);
+}
+
+
 
 

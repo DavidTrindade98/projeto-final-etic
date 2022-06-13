@@ -1,0 +1,17 @@
+.about-hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../images/Pastelaria.jpg");
+    height: 470px;
+}
+
+.about-section h1{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+}
+
+.about-section p {
+    
+}
