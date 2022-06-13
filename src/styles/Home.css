@@ -13,9 +13,8 @@
 
 .hero-text {
     color: white;
-    padding-left: 200px;
+    padding-left: 140px;
     padding-top: 100px;
-    position: absolute;
 }
 
 #hero-title {
@@ -51,6 +50,7 @@
     background-color: rgb(211, 173, 104);
     text-align: center;
     color: black;
+    line-height: 38px;
 }
 
 .welcome-title{
@@ -79,15 +79,46 @@
 }
 
 .box1{
-    text-align: center;
-    padding: 30px;
+    padding: 100px;
+    padding-left: 140px;
+    font-size: 20px;
+    line-height: 38px;
 }
 
 .box2{
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/maquinaCafe.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
 
+.box3{
+    background-image: url('../images/pastelNata.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.box4{
+    padding: 100px;
+    padding-right: 140px;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.box5{
+    padding: 100px;
+    padding-left: 140px;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.box6{
+    background-image: url('../images/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}

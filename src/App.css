@@ -4,3 +4,9 @@ body {
   box-sizing: border-box;  
 }
 
+.wrapper {
+	width: 1700px;
+	margin: 0 auto;
+  height: 100%;
+}
+

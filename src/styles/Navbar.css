@@ -8,6 +8,8 @@
 nav {
     height: 130px;
     display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
     gap: 700px;
     justify-content: center;
     background-color: black;
