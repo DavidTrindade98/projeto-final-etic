@@ -21,7 +21,7 @@
 
 .cafetaria-image h1 {
     font-size: 140px;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-left: 120px;
     color: white;
 }
@@ -287,3 +287,760 @@
     visibility: visible;
     opacity: 1;
 }
+
+/*Pastelaria*/
+
+.pastelaria-container {
+    display: grid;
+    width: 100%;
+    grid-gap: 10px;
+    grid-template-columns: 40% auto;
+    grid-template-rows: 700px;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.pastelaria-image {
+    background-image: url('../images/Products/pasteisdenata.jpg');
+    background-position: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pastelaria-image h1 {
+    font-size: 140px;
+    padding-top: 60px;
+    padding-left: 120px;
+    color: white;
+}
+
+.pastelaria-grid {
+    gap: 20px;
+    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+/*Box 1*/
+
+.pastelaria__box1 {
+    background-image: url('../images/Products/CafeSical.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto1 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box1:hover .pastelaria__texto1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 2*/
+
+.pastelaria__box2 {
+    background-image: url('../images/Products/abatanado.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto2 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box2:hover .pastelaria__texto2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 3*/
+
+.pastelaria__box3 {
+    background-image: url('../images/Products/galao.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto3 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box3:hover .pastelaria__texto3 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 4*/
+
+.pastelaria__box4 {
+    background-image: url('../images/Products/ChocolateCanela.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto4 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box4:hover .pastelaria__texto4 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 5*/
+
+.pastelaria__box5 {
+    background-image: url('../images/Products/baileyscoffee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto5 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box5:hover .pastelaria__texto5 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 6*/
+
+.pastelaria__box6 {
+    background-image: url('../images/Products/irishcoffee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto6 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box6:hover .pastelaria__texto6 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 7*/
+
+.pastelaria__box7 {
+    background-image: url('../images/Products/cappucino.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto7 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box7:hover .pastelaria__texto7 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 8*/
+
+.pastelaria__box8 {
+    background-image: url('../images/Products/meiadeleite.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto8 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box8:hover .pastelaria__texto8 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 9*/
+
+
+.pastelaria__box9 {
+    background-image: url('../images/Products/cafechocolate.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto9 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box9:hover .pastelaria__texto9 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 10*/
+
+.pastelaria__box10 {
+    background-image: url('../images/Products/cafechocolate.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto10 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box10:hover .pastelaria__texto10 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*Box 11*/
+
+
+.pastelaria__box11 {
+    background-image: url('../images/Products/cafechocolate.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto11 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box11:hover .pastelaria__texto11 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 12*/
+
+.pastelaria__box12 {
+    background-image: url('../images/Products/cafechocolate.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pastelaria__texto12 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.pastelaria__box12:hover .pastelaria__texto12 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Bolos*/
+
+.bolos-container {
+    display: grid;
+    width: 100%;
+    grid-gap: 10px;
+    grid-template-columns: 40% auto;
+    grid-template-rows: 700px;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.bolos-image {
+    background-image: url('../images/Products/pasteisdenata.jpg');
+    background-position: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bolos-image h1 {
+    font-size: 140px;
+    padding-top: 60px;
+    padding-left: 120px;
+    color: white;
+}
+
+.bolos-grid {
+    gap: 20px;
+    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+/*Box 1*/
+
+.bolos__box1 {
+    background-image: url('../images/Products/CafeSical.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto1 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box1:hover .bolos__texto1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 2*/
+
+.bolos__box2 {
+    background-image: url('../images/Products/abatanado.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto2 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box2:hover .bolos__texto2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 3*/
+
+.bolos__box3 {
+    background-image: url('../images/Products/galao.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto3 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box3:hover .bolos__texto3 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 4*/
+
+.bolos__box4 {
+    background-image: url('../images/Products/ChocolateCanela.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto4 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box4:hover .bolos__texto4 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 5*/
+
+.bolos__box5 {
+    background-image: url('../images/Products/baileyscoffee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto5 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box5:hover .bolos__texto5 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 6*/
+
+.bolos__box6 {
+    background-image: url('../images/Products/irishcoffee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto6 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box6:hover .bolos__texto6 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 7*/
+
+.bolos__box7 {
+    background-image: url('../images/Products/cappucino.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto7 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box7:hover .bolos__texto7 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 8*/
+
+.bolos__box8 {
+    background-image: url('../images/Products/meiadeleite.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto8 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box8:hover .bolos__texto8 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 9*/
+
+
+.bolos__box9 {
+    background-image: url('../images/Products/cafechocolate.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto9 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box9:hover .bolos__texto9 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 10*/
+
+.bolos__box10 {
+    background-image: url('../images/Products/cafechocolate.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto10 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box10:hover .bolos__texto10 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*Box 11*/
+
+
+.bolos__box11 {
+    background-image: url('../images/Products/cafechocolate.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto11 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box11:hover .bolos__texto11 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 12*/
+
+.bolos__box12 {
+    background-image: url('../images/Products/cafechocolate.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bolos__texto12 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.bolos__box12:hover .bolos__texto12 {
+    visibility: visible;
+    opacity: 1;
+}
+
