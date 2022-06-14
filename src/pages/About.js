@@ -16,6 +16,9 @@ function About() {
                 <div className="about-photo-1"></div>
                 <div className="about-photo-2"></div>
             </div>
+            <div className="okdizem">
+                <h1>O que dizem?</h1>
+            </div>
         </div>
 
     );

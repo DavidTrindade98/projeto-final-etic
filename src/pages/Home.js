@@ -12,7 +12,6 @@ function Home() {
                     <Link to="/Encomendar">
                         <button type="button" className="homepage-encomendar">Encomendar</button>
                     </Link>
-
                 </div>
             </div>
             <div className="welcome">

@@ -54,7 +54,7 @@
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(211, 173, 104);
+    background-color: orange;
     text-align: center;
     color: black;
 }
@@ -74,7 +74,7 @@
     display: grid;
     justify-items: center;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 400px 400px 400px;
+    grid-template-rows: 500px 500px 500px;
     font-family: 'Raleway', sans-serif;
 }
 
