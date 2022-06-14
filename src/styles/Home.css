@@ -12,7 +12,7 @@
     padding-top: 100px;
 }
 
-#homepage-hero-title {
+.homepage-hero-title {
     font-size: 64px;
     font-weight: lighter;
     font-family: 'Great Vibes', cursive;
@@ -38,7 +38,7 @@
     border-radius: 50px;
     height: 60px;
     width: 160px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 1000;
     font-family: 'Raleway', sans-serif;
 }
@@ -46,32 +46,26 @@
 .homepage-encomendar:hover{
     color: white;
     cursor: pointer;
-    font-weight: bold;
-    font-size: 20px;
 }
 
 /*Welcome Section*/
 
 .welcome {
     width: 100%;
-    padding: 20px;
+    padding-top: 20px;
     position: absolute;
     background-color: rgb(211, 173, 104);
     text-align: center;
     color: black;
-
+    height: 220px;
 }
 
 .welcome-title {
-    font-size: 45px;
     font-family: 'Great Vibes', cursive;
-
 }
 
 .welcome-subtitle {
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    line-height: 35px;
 }
 
 /*Grid Section*/
@@ -83,7 +77,7 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 400px 400px 400px;
     position: relative;
-    top: 250px;
+    top: 240px;
     font-family: 'Raleway', sans-serif;
 }
 

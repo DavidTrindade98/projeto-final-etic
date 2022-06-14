@@ -6,7 +6,7 @@ function Home() {
         <div className="homepage">
             <div className="homepage-hero">
                 <div className="homepage-hero-text">
-                    <h1 id="homepage-hero-title">Pastelaria Trindade</h1>
+                    <h1 className="homepage-hero-title">Pastelaria Trindade</h1>
                     <p className="homepage-hero-subtitle">O seu ponto de encontro, situado<br></br> no Largo da República, no coração<br></br> da vila fusetense.</p>
                     <p className="homepage-hero-subtitle2">Encomende Já o seu Bolo</p>
                     <Link to="/Encomendar">

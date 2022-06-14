@@ -6,12 +6,21 @@
     height: 470px;
 }
 
+.about-section {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(226, 211, 182);
+    text-align: center;
+    color: black;
+}
+
 .about-section h1{
     text-align: center;
-    font-family: 'Great Vibes', cursive;
-    font-size: 45px;
+    line-height: 38px;
 }
 
 .about-section p {
-    
+    text-align: center;
+   
 }
+
