@@ -3,15 +3,16 @@
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url("../images/Pastelaria.jpg");
-    height: 470px;
+    height: 520px;
 }
 
 .about-section {
-    width: 100%;
-    padding: 20px;
     background-color: rgb(226, 211, 182);
     text-align: center;
     color: black;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .about-section h1{
@@ -20,7 +21,33 @@
 }
 
 .about-section p {
-    text-align: center;
-   
+    text-align: center; 
 }
+
+/*Grid section*/
+
+.dual-photo-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px;
+    justify-items: center;
+}
+
+.about-photo-1 {
+    background-image: url('../images/largo-antigo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.about-photo-2 {
+    background-image: url('../images/largo-quadro.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
 

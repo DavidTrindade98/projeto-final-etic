@@ -53,11 +53,10 @@
 .welcome {
     width: 100%;
     padding-top: 20px;
-    position: absolute;
+    padding-bottom: 20px;
     background-color: rgb(211, 173, 104);
     text-align: center;
     color: black;
-    height: 220px;
 }
 
 .welcome-title {
@@ -76,16 +75,12 @@
     justify-items: center;
     grid-template-columns: 50% 50%;
     grid-template-rows: 400px 400px 400px;
-    position: relative;
-    top: 240px;
     font-family: 'Raleway', sans-serif;
 }
 
 .homepage-box1 {
     padding: 100px;
     padding-left: 140px;
-    font-size: 20px;
-    line-height: 38px;
 }
 
 .homepage-box2 {
@@ -107,15 +102,11 @@
 .homepage-box4 {
     padding: 100px;
     padding-right: 140px;
-    font-size: 20px;
-    line-height: 38px;
 }
 
 .homepage-box5 {
     padding: 100px;
     padding-left: 140px;
-    font-size: 20px;
-    line-height: 38px;
 }
 
 .homepage-box6 {
