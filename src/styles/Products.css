@@ -35,6 +35,8 @@
     grid-template-rows: auto auto auto;
 }
 
+/*Box 1*/
+
 .cafetaria__box1 {
     background-image: url('../images/Products/CafeSical.JPG');
     background-position: center;
@@ -61,8 +63,9 @@
     opacity: 1;
 }
 
+/*Box 2*/
 
-.cafetaria-box2 {
+.cafetaria__box2 {
     background-image: url('../images/Products/abatanado.jpg');
     background-position: center;
     background-size: cover;
@@ -71,11 +74,216 @@
     border-radius: 20px;
 }
 
-.cafetaria-box3 {
+.cafetaria__texto2 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.cafetaria__box2:hover .cafetaria__texto2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 3*/
+
+.cafetaria__box3 {
     background-image: url('../images/Products/galao.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     border-radius: 20px;
+}
+
+.cafetaria__texto3 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.cafetaria__box3:hover .cafetaria__texto3 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 4*/
+
+.cafetaria__box4 {
+    background-image: url('../images/Products/ChocolateCanela.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cafetaria__texto4 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.cafetaria__box4:hover .cafetaria__texto4 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 5*/
+
+.cafetaria__box5 {
+    background-image: url('../images/Products/baileyscoffee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cafetaria__texto5 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.cafetaria__box5:hover .cafetaria__texto5 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 6*/
+
+.cafetaria__box6 {
+    background-image: url('../images/Products/irishcoffee.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cafetaria__texto6 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.cafetaria__box6:hover .cafetaria__texto6 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 7*/
+
+.cafetaria__box7 {
+    background-image: url('../images/Products/cappucino.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cafetaria__texto7 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.cafetaria__box7:hover .cafetaria__texto7 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 8*/
+
+.cafetaria__box8 {
+    background-image: url('../images/Products/meiadeleite.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cafetaria__texto8 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.cafetaria__box8:hover .cafetaria__texto8 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*Box 9*/
+
+
+.cafetaria__box9 {
+    background-image: url('../images/Products/cafechocolate.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cafetaria__texto9 {
+    position: absolute;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .4s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.cafetaria__box9:hover .cafetaria__texto9 {
+    visibility: visible;
+    opacity: 1;
 }
