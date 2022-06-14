@@ -303,7 +303,7 @@
 }
 
 .pastelaria-image {
-    background-image: url('../images/Products/pasteisdenata.jpg');
+    background-image: url('../images/Products/pastelHero.jpg');
     background-position: center;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -330,7 +330,7 @@
 /*Box 1*/
 
 .pastelaria__box1 {
-    background-image: url('../images/Products/CafeSical.JPG');
+    background-image: url('../images/Products/pasteldenata.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -358,7 +358,7 @@
 /*Box 2*/
 
 .pastelaria__box2 {
-    background-image: url('../images/Products/abatanado.jpg');
+    background-image: url('../images/Products/bolodearroz.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -386,7 +386,7 @@
 /*Box 3*/
 
 .pastelaria__box3 {
-    background-image: url('../images/Products/galao.jpg');
+    background-image: url('../images/Products/queque.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -414,7 +414,7 @@
 /*Box 4*/
 
 .pastelaria__box4 {
-    background-image: url('../images/Products/ChocolateCanela.png');
+    background-image: url('../images/Products/quequechocolate.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -442,7 +442,7 @@
 /*Box 5*/
 
 .pastelaria__box5 {
-    background-image: url('../images/Products/baileyscoffee.jpg');
+    background-image: url('../images/Products/milfolhas.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -470,7 +470,7 @@
 /*Box 6*/
 
 .pastelaria__box6 {
-    background-image: url('../images/Products/irishcoffee.jpg');
+    background-image: url('../images/Products/salamechocolate.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -498,7 +498,7 @@
 /*Box 7*/
 
 .pastelaria__box7 {
-    background-image: url('../images/Products/cappucino.jpg');
+    background-image: url('../images/Products/bolojesuita.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -526,7 +526,7 @@
 /*Box 8*/
 
 .pastelaria__box8 {
-    background-image: url('../images/Products/meiadeleite.jpg');
+    background-image: url('../images/Products/pasteldefeijao.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -555,7 +555,7 @@
 
 
 .pastelaria__box9 {
-    background-image: url('../images/Products/cafechocolate.jpg');
+    background-image: url('../images/Products/queijadas.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -583,7 +583,7 @@
 /*Box 10*/
 
 .pastelaria__box10 {
-    background-image: url('../images/Products/cafechocolate.jpg');
+    background-image: url('../images/Products/merengues.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -613,7 +613,7 @@
 
 
 .pastelaria__box11 {
-    background-image: url('../images/Products/cafechocolate.jpg');
+    background-image: url('../images/Products/folhado.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -641,7 +641,7 @@
 /*Box 12*/
 
 .pastelaria__box12 {
-    background-image: url('../images/Products/cafechocolate.jpg');
+    background-image: url('../images/Products/merendamista.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -681,7 +681,7 @@
 }
 
 .bolos-image {
-    background-image: url('../images/Products/pasteisdenata.jpg');
+    background-image: url('../images/Products/CakeHero.jpg');
     background-position: center;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;

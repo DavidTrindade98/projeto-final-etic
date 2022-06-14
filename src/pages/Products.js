@@ -49,34 +49,34 @@ function Products() {
                         <p className="pastelaria__texto2">Bolo de Arroz</p>
                     </div>
                     <div className="pastelaria__box3">
-                        <p className="pastelaria__texto3">Galão</p>
+                        <p className="pastelaria__texto3">Queque</p>
                     </div>
                     <div className="pastelaria__box4">
-                        <p className="pastelaria__texto4">Chocolate com Canela</p>
+                        <p className="pastelaria__texto4">Queque de Chocolate</p>
                     </div>
                     <div className="pastelaria__box5">
-                        <p className="pastelaria__texto5">Baileys Coffee</p>
+                        <p className="pastelaria__texto5">Mil Folhas</p>
                     </div>
                     <div className="pastelaria__box6">
-                        <p className="pastelaria__texto6">Irish Coffee</p>
+                        <p className="pastelaria__texto6">Salame de Chocolate</p>
                     </div>
-                    <div className="cafetaria__box7">
-                        <p className="cafetaria__texto7">Cappucino</p>
+                    <div className="pastelaria__box7">
+                        <p className="pastelaria__texto7">Jesuíta</p>
                     </div>
                     <div className="pastelaria__box8">
-                        <p className="pastelaria__texto8">Meia de Leite</p>
+                        <p className="pastelaria__texto8">Pastel de feijão</p>
                     </div>
                     <div className="pastelaria__box9">
-                        <p className="pastelaria__texto9">Café com Chocolate</p>
+                        <p className="pastelaria__texto9">Queijada</p>
                     </div>
                     <div className="pastelaria__box10">
-                        <p className="pastelaria__texto10">Café com Chocolate</p>
+                        <p className="pastelaria__texto10">Merengues</p>
                     </div>
                     <div className="pastelaria__box11">
-                        <p className="pastelaria__texto11">Café com Chocolate</p>
+                        <p className="pastelaria__texto11">Folhado</p>
                     </div>
                     <div className="pastelaria__box12">
-                        <p className="pastelaria__texto12">Café com Chocolate</p>
+                        <p className="pastelaria__texto12">Merenda Mista</p>
                     </div>
                 </div>
             </div>
@@ -87,40 +87,40 @@ function Products() {
                 </div>
                 <div className="bolos-grid">
                     <div className="bolos__box1">
-                        <p className="bolos__texto1">Pastel de Nata</p>
+                        <p className="bolos__texto1">Bolo Brigadeiro</p>
                     </div>
                     <div className="bolos__box2">
-                        <p className="bolos__texto2">Bolo de Arroz</p>
+                        <p className="bolos__texto2">Torta de Claras</p>
                     </div>
                     <div className="bolos__box3">
-                        <p className="bolos__texto3">Galão</p>
+                        <p className="bolos__texto3">Bolo Invejoso</p>
                     </div>
                     <div className="bolos__box4">
-                        <p className="bolos__texto4">Chocolate com Canela</p>
+                        <p className="bolos__texto4">Bolo Frutos Vermelhos</p>
                     </div>
                     <div className="bolos__box5">
-                        <p className="bolos__texto5">Baileys Coffee</p>
+                        <p className="bolos__texto5">Bolo Red Velvet</p>
                     </div>
                     <div className="bolos__box6">
-                        <p className="bolos__texto6">Irish Coffee</p>
+                        <p className="bolos__texto6">Bolo Mousellini</p>
                     </div>
                     <div className="bolos__box7">
-                        <p className="bolos__texto7">Cappucino</p>
+                        <p className="bolos__texto7">Bolo de Bolacha</p>
                     </div>
                     <div className="bolos__box8">
-                        <p className="bolos__texto8">Meia de Leite</p>
+                        <p className="bolos__texto8">Cheesecake de Manga</p>
                     </div>
                     <div className="bolos__box9">
-                        <p className="bolos__texto9">Café com Chocolate</p>
+                        <p className="bolos__texto9">Semifrio de Morango</p>
                     </div>
                     <div className="bolos__box10">
-                        <p className="bolos__texto10">Café com Chocolate</p>
+                        <p className="bolos__texto10">Bolo de Amendoa</p>
                     </div>
                     <div className="bolos__box11">
-                        <p className="bolos__texto11">Café com Chocolate</p>
+                        <p className="bolos__texto11">Bolo de Morango</p>
                     </div>
                     <div className="bolos__box12">
-                        <p className="bolos__texto12">Café com Chocolate</p>
+                        <p className="bolos__texto12">Cheesecake Limao</p>
                     </div>
                 </div>
             </div>
