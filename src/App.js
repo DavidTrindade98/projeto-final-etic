@@ -10,6 +10,7 @@ import Contacts from './pages/Contacts';
 import './styles/Navbar.css';
 import './styles/Home.css';
 import './styles/About.css';
+import './styles/Products.css';
 
 
 

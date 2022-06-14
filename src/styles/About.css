@@ -2,7 +2,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("../images/Pastelaria.jpg");
+            rgba(0, 0, 0, 0.5)), url("../images/About/Pastelaria.jpg");
     height: 520px;
     
 }
@@ -35,7 +35,7 @@
 }
 
 .about-photo-1 {
-    background-image: url('../images/largo-antigo.png');
+    background-image: url('../images/About/largo-antigo.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
 
 .about-photo-2 {
-    background-image: url('../images/largo-quadro.png');
+    background-image: url('../images/About/largo-quadro.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

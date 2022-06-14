@@ -1,5 +1,5 @@
 .homepage-hero {
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/Homepage/hero.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@
 }
 
 .homepage-box2 {
-    background-image: url('../images/maquinaCafe.jpg');
+    background-image: url('../images/Homepage/maquinaCafe.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@
 }
 
 .homepage-box3 {
-    background-image: url('../images/pastelNata.jpg');
+    background-image: url('../images/Homepage/pastelNata.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@
 }
 
 .homepage-box6 {
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/Homepage/hero.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
