@@ -114,10 +114,10 @@ function Products() {
                         <p className="bolos__texto9">Semifrio de Morango</p>
                     </div>
                     <div className="bolos__box10">
-                        <p className="bolos__texto10">Bolo de Amendoa</p>
+                        <p className="bolos__texto10">Cheesecake Dom Rodrigo</p>
                     </div>
                     <div className="bolos__box11">
-                        <p className="bolos__texto11">Bolo de Morango</p>
+                        <p className="bolos__texto11">Semifrio de Framboesas</p>
                     </div>
                     <div className="bolos__box12">
                         <p className="bolos__texto12">Cheesecake Limao</p>

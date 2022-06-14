@@ -3,7 +3,7 @@
     width: 100%;
     grid-gap: 10px;
     grid-template-columns: 40% auto;
-    grid-template-rows: 700px;
+    grid-template-rows: 800px;
     background-color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -295,7 +295,7 @@
     width: 100%;
     grid-gap: 10px;
     grid-template-columns: 40% auto;
-    grid-template-rows: 700px;
+    grid-template-rows: 800px;
     background-color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -673,7 +673,7 @@
     width: 100%;
     grid-gap: 10px;
     grid-template-columns: 40% auto;
-    grid-template-rows: 700px;
+    grid-template-rows: 800px;
     background-color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -708,7 +708,7 @@
 /*Box 1*/
 
 .bolos__box1 {
-    background-image: url('../images/Products/CafeSical.JPG');
+    background-image: url('../images/Products/bolobrigadeiro.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -736,7 +736,7 @@
 /*Box 2*/
 
 .bolos__box2 {
-    background-image: url('../images/Products/abatanado.jpg');
+    background-image: url('../images/Products/tortadeclaras.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -764,7 +764,7 @@
 /*Box 3*/
 
 .bolos__box3 {
-    background-image: url('../images/Products/galao.jpg');
+    background-image: url('../images/Products/boloinvejoso.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -792,7 +792,7 @@
 /*Box 4*/
 
 .bolos__box4 {
-    background-image: url('../images/Products/ChocolateCanela.png');
+    background-image: url('../images/Products/bolofrutosvermelhos.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -820,7 +820,7 @@
 /*Box 5*/
 
 .bolos__box5 {
-    background-image: url('../images/Products/baileyscoffee.jpg');
+    background-image: url('../images/Products/boloredvelvet.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -848,7 +848,7 @@
 /*Box 6*/
 
 .bolos__box6 {
-    background-image: url('../images/Products/irishcoffee.jpg');
+    background-image: url('../images/Products/bolomousellini.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -876,7 +876,7 @@
 /*Box 7*/
 
 .bolos__box7 {
-    background-image: url('../images/Products/cappucino.jpg');
+    background-image: url('../images/Products/bolodebolacha.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -904,7 +904,7 @@
 /*Box 8*/
 
 .bolos__box8 {
-    background-image: url('../images/Products/meiadeleite.jpg');
+    background-image: url('../images/Products/cheesecakemanga.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -933,7 +933,7 @@
 
 
 .bolos__box9 {
-    background-image: url('../images/Products/cafechocolate.jpg');
+    background-image: url('../images/Products/semifriodemorango.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -961,7 +961,7 @@
 /*Box 10*/
 
 .bolos__box10 {
-    background-image: url('../images/Products/cafechocolate.jpg');
+    background-image: url('../images/Products/cheesecakedomrodrigo.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -991,7 +991,7 @@
 
 
 .bolos__box11 {
-    background-image: url('../images/Products/cafechocolate.jpg');
+    background-image: url('../images/Products/semifriodeframboesas.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1019,7 +1019,7 @@
 /*Box 12*/
 
 .bolos__box12 {
-    background-image: url('../images/Products/cafechocolate.jpg');
+    background-image: url('../images/Products/cheesecakedelimao.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
