@@ -8,7 +8,9 @@ function Products() {
                     <h1>Cafetaria</h1>
                 </div>
                 <div className="cafetaria-grid">
-                    <div className="cafetaria-box1"></div>
+                    <div className="cafetaria__box1">
+                        <p className="cafetaria__texto1">Expresso Tradicional</p>
+                    </div>
                     <div className="cafetaria-box2"></div>
                     <div className="cafetaria-box3"></div>
                     <div className="cafetaria-box4"></div>
