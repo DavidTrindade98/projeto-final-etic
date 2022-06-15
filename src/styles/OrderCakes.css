@@ -1,0 +1,71 @@
+.encomendar-hero{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+         rgba(0, 0, 0, 0.9)), url("../images/makecake.jpg");
+    height: 520px;
+    display: flex;
+    justify-content: center;
+}
+
+.encomendar-hero-text{
+    align-self: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 140px;
+    color: white;
+}
+
+.encomendar-section{
+    background-color: rgb(226, 211, 182);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.encomendar-section p{
+    background-color: rgb(226, 211, 182);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    line-height: 62px;
+    width: 100%;
+    
+}
+
+.encomendar-container {
+    display: grid;
+    width: 100%;
+    padding-top: 40px;
+    grid-gap: 10px;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 800px;
+    background-color: rgb(255, 255, 255);
+}
+
+.encomendar-image{
+    background-image: url('../images/Homepage/cafe.jpg');
+    background-position: center;
+    border-bottom-right-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.encomendar-image h1{
+    font-size: 140px;
+    padding-top: 60px;
+    padding-left: 120px;
+    color: white;
+}
+
+
+
+.encomendar-form-container{
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    height: 120px;
+}
+

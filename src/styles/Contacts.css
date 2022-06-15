@@ -1,0 +1,17 @@
+.contacts-hero{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+         rgba(0, 0, 0, 0.9)), url("../images/Contacts/contact.jpg");
+    height: 520px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-hero-text{
+    align-self: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 140px;
+    color: white;
+}

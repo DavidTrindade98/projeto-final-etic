@@ -20,7 +20,6 @@ function About() {
                 <h1>O que dizem?</h1>
             </div>
         </div>
-
     );
 }
 

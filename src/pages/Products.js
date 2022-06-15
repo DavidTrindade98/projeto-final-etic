@@ -3,6 +3,9 @@ import React from "react";
 function Products() {
     return (
         <div className="products">
+            <div className="products-hero">
+                <div className="products-hero-text">Produtos</div>
+            </div>
             <div className="cafetaria-container">
                 <div className="cafetaria-image">
                     <h1>Cafetaria</h1>
@@ -64,7 +67,7 @@ function Products() {
                         <p className="pastelaria__texto7">Jesuíta</p>
                     </div>
                     <div className="pastelaria__box8">
-                        <p className="pastelaria__texto8">Pastel de feijão</p>
+                        <p className="pastelaria__texto8">Pastel de Feijão</p>
                     </div>
                     <div className="pastelaria__box9">
                         <p className="pastelaria__texto9">Queijada</p>
@@ -120,7 +123,7 @@ function Products() {
                         <p className="bolos__texto11">Semifrio de Framboesas</p>
                     </div>
                     <div className="bolos__box12">
-                        <p className="bolos__texto12">Cheesecake Limao</p>
+                        <p className="bolos__texto12">Cheesecake Limão</p>
                     </div>
                 </div>
             </div>

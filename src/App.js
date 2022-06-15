@@ -11,6 +11,8 @@ import './styles/Navbar.css';
 import './styles/Home.css';
 import './styles/About.css';
 import './styles/Products.css';
+import './styles/OrderCakes.css';
+import './styles/Contacts.css';
 
 
 
