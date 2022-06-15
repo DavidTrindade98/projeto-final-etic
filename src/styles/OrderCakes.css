@@ -36,36 +36,44 @@
 .encomendar-container {
     display: grid;
     width: 100%;
-    padding-top: 40px;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-template-columns: 50% auto;
     grid-template-rows: 800px;
     background-color: rgb(255, 255, 255);
 }
 
 .encomendar-image{
-    background-image: url('../images/Homepage/cafe.jpg');
+    background-image: url('../images/OrderCakes/paodelo.jpg');
     background-position: center;
-    border-bottom-right-radius: 20px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.encomendar-image h1{
-    font-size: 140px;
-    padding-top: 60px;
-    padding-left: 120px;
-    color: white;
-}
-
-
-
 .encomendar-form-container{
     align-items: center;
     justify-content: center;
+    padding-right: 140px;
 }
 
-form{
-    height: 120px;
+.form-inline{
+    outline-style: solid;
+    margin: 100px;
+    padding: 40px;
+    color: black;
+}
+
+label {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    height: 60px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 

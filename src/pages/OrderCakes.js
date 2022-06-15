@@ -13,18 +13,28 @@ function OrderCakes() {
                     Desde bolos mais simples a verdadeiras obras de arte em três dimensões!</p>
             </div>
             <div className="encomendar-container">
-                <div className="encomendar-image">
-                    <h1>Encomendar</h1>
-                </div>
+                <div className="encomendar-image"></div>
                 <div className="encomendar-form-container">
-                    <form>
+                    <form className="form-inline">
                         <label>
-                            <p>Nome</p>
+                            <p>Nome:</p>
                             <input name="name" />
                         </label>
                         <label>
-                            <p>Email</p>
+                            <p>Email:</p>
                             <input name="email" />
+                        </label>
+                        <label>
+                            <p>Telefone:</p>
+                            <input name="tel" />
+                        </label>
+                        <label>
+                            <p>Data de Entrega:</p>
+                            <input name="date" type="date"  />
+                        </label>
+                        <label>
+                            <p>Hora de Entrega:</p>
+                            <input name="time" type="time" />
                         </label>
                     </form>
                 </div>
