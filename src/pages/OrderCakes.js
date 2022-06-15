@@ -10,6 +10,9 @@ function OrderCakes() {
 
     const onSubmit = (event) => {
         event.preventDefault();
+
+        alert(`Name: ${name} \r\nEmail: ${email} \r\nTelefone: ${tele} \r\nData de Entrega: ${date} \r\nHora de Entrega: ${hour}  `)
+
         console.log("Name : " + name);
         console.log("Email : " + email);
         console.log("Telefone : " + tele);
@@ -64,22 +67,22 @@ function OrderCakes() {
                         </label>
                         <label>
                             <p>Data de Entrega:</p>
-                            <input 
-                            name="date" 
-                            type="date"
-                            value={date}
-                            onChange={(e) => setDate(e.target.value)}
-                            required
+                            <input
+                                name="date"
+                                type="date"
+                                value={date}
+                                onChange={(e) => setDate(e.target.value)}
+                                required
                             />
                         </label>
                         <label>
                             <p>Hora de Entrega:</p>
-                            <input 
-                            name="time" 
-                            type="time" 
-                            value={hour}
-                            onChange={(e) => setHour(e.target.value)}
-                            required
+                            <input
+                                name="time"
+                                type="time"
+                                value={hour}
+                                onChange={(e) => setHour(e.target.value)}
+                                required
                             />
                         </label>
                         <input type="submit" value="Submit" />
