@@ -1,0 +1,38 @@
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+}
+
+.footer-box1{
+    color: white;
+    font-size: 45px;
+    font-family: 'Great Vibes', cursive;
+    flex: 50%;
+    max-height: 200px;
+    padding-left: 140px;
+    justify-content: flex-start;
+}
+
+.footer-box2{
+    color: white;
+    font-size: 45px;
+    font-family: 'Great Vibes', cursive;
+    flex: 50%;
+    max-height: 200px;
+    justify-content: center;
+}
+
+.footer-box3{
+    color: white;
+    font-size: 45px;
+    font-family: 'Great Vibes', cursive;
+    flex: 50%;
+    max-height: 200px;
+    padding-right: 140px;
+    justify-content: flex-end;
+}
