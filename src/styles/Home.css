@@ -30,20 +30,19 @@
     font-family: 'Raleway', sans-serif;
 }
 
-
-.homepage-encomendar {
+.general-button {
     text-align: center;
-    border: 1px solid orange;
-    background-color: orange;
+    border: 1px solid rgb(221, 181, 105);
+    background-color: rgb(221, 181, 105);
     border-radius: 50px;
     height: 60px;
-    width: 160px;
+    width: 220px;
     font-size: 20px;
     font-weight: 1000;
     font-family: 'Raleway', sans-serif;
 }
 
-.homepage-encomendar:hover{
+.general-button:hover{
     color: white;
     cursor: pointer;
 }
@@ -52,9 +51,9 @@
 
 .welcome {
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: orange;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(221, 181, 105);
     text-align: center;
     color: black;
 }

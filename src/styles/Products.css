@@ -16,6 +16,13 @@
     color: white;
 }
 
+.products-info{
+    background-color: rgb(235, 208, 159);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .cafetaria-container {
     display: grid;
     width: 100%;
@@ -25,7 +32,6 @@
     background-color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 
 .cafetaria-image {

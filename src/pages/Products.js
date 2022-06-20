@@ -6,6 +6,9 @@ function Products() {
             <div className="products-hero">
                 <div className="products-hero-text">Produtos</div>
             </div>
+            <div className="products-info">
+                <p>Pastelaria de fabrico próprio, onde todos os seus bolos e pão quente são confeccionados dia após dia para que sejam de máxima qualidade.</p>
+            </div>
             <div className="cafetaria-container">
                 <div className="cafetaria-image">
                     <h1>Cafetaria</h1>

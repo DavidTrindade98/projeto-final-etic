@@ -16,8 +16,6 @@ import './styles/OrderCakes.css';
 import './styles/Contacts.css';
 import './styles/Footer.css';
 
-
-
 function App() {
   return (
     <div className='App'>
@@ -27,7 +25,7 @@ function App() {
         <Route path="/SobreNos" element={<About />} />
         <Route path="/Produtos" element={<Products />} />
         <Route path="/Encomendar" element={<OrderCakes />} />
-        <Route path="/Contactos" element={<Contacts />} />
+        <Route path="/Contactos" element={<Contacts />} /> 
       </Routes>
       <Footer />
     </div >

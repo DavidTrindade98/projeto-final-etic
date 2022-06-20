@@ -10,7 +10,7 @@ function Home() {
                     <p className="homepage-hero-subtitle">O seu ponto de encontro, situado<br></br> no Largo da República, no coração<br></br> da vila fusetense.</p>
                     <p className="homepage-hero-subtitle2">Encomende Já o seu Bolo</p>
                     <Link to="/Encomendar">
-                        <button type="button" className="homepage-encomendar">Encomendar</button>
+                        <button type="button" className="general-button">Encomendar</button>
                     </Link>
                 </div>
             </div>
@@ -23,6 +23,9 @@ function Home() {
                 <div className="homepage-box1">
                     <h1>Cafetaria</h1>
                     <p>São mais de vinte as variedades de café, onde o cliente pode escolher desde o expresso tradicional aos cada vez mais populares cappuccinos.</p>
+                    <Link to="/Produtos">
+                        <button type="button" className="general-button">Saber mais</button>
+                    </Link>
                 </div>
                 <div className="homepage-box2"></div>
                 <div className="homepage-box3"></div>
@@ -32,12 +35,18 @@ function Home() {
                         populares pastelarias em todo o Algarve, são diversos
                         os tipos de pasteis de fabrico própio, é só vir
                         experimentar!</p>
+                    <Link to="/Produtos">
+                        <button type="button" className="general-button">Saber mais</button>
+                    </Link>
                 </div>
                 <div className="homepage-box5">
                     <h1>Bolos de Aniversário</h1>
                     <p>São diversos os tipos de bolos de aniversário de diferentes
                         tamanhos e texturas, é só encomendar, festejar e disfrutar
                         do sabor!</p>
+                    <Link to="/Encomendar">
+                        <button type="button" className="general-button">Encomendar</button>
+                    </Link>
                 </div>
                 <div className="homepage-box6">Six</div>
             </div>

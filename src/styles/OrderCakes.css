@@ -17,14 +17,13 @@
 }
 
 .encomendar-section{
-    background-color: rgb(226, 211, 182);
+    background-color: rgb(235, 208, 159);
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .encomendar-section p{
-    background-color: rgb(226, 211, 182);
     text-align: center;
     color: black;
     font-weight: bold;
@@ -52,28 +51,37 @@
 .encomendar-form-container{
     align-items: center;
     justify-content: center;
-    padding-right: 140px;
+    padding: 40px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 140px 140px 140px 140px 140px 140px;
 }
 
 .form-inline{
-    outline-style: solid;
-    margin: 100px;
-    padding: 40px;
-    color: black;
+    
 }
 
 label {
-    display: flex;
+    width: max-content;
     gap: 18px;
     align-items: center;
-    height: 60px;
 }
 
 input {
-    width: 200px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(221, 181, 105);
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 1000;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
 }
 
+.select{
+    height: 40px;
+    width: 300px;
+}
