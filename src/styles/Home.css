@@ -1,9 +1,9 @@
 .homepage-hero {
-    background-image: url('../images/Homepage/hero.jpg');
+    background-image: url('../images/cakeheroo.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 900px;
 }
 
 .homepage-hero-text {
@@ -32,8 +32,8 @@
 
 .general-button {
     text-align: center;
-    border: 1px solid rgb(221, 181, 105);
-    background-color: rgb(221, 181, 105);
+    border: 1px solid rgb(228, 208, 172);
+    background-color: rgb(228, 208, 172);
     border-radius: 50px;
     height: 60px;
     width: 220px;
@@ -43,7 +43,6 @@
 }
 
 .general-button:hover{
-    color: white;
     cursor: pointer;
 }
 
@@ -53,7 +52,8 @@
     width: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: rgb(221, 181, 105);
+    background-color: rgb(228, 208, 172);
+    font-weight: 1000;
     text-align: center;
     color: black;
 }

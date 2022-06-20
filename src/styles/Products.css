@@ -17,10 +17,23 @@
 }
 
 .products-info{
-    background-color: rgb(235, 208, 159);
+    background-color: rgb(228, 208, 172);
     width: 100%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.products-info p {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    line-height: 60px;
+    width: 100%;
 }
 
 .cafetaria-container {
@@ -30,8 +43,9 @@
     grid-template-columns: 40% auto;
     grid-template-rows: 800px;
     background-color: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
 }
 
 .cafetaria-image {
@@ -321,8 +335,8 @@
     grid-template-columns: 40% auto;
     grid-template-rows: 800px;
     background-color: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 
@@ -699,8 +713,8 @@
     grid-template-columns: 40% auto;
     grid-template-rows: 800px;
     background-color: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 

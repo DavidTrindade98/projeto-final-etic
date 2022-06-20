@@ -85,7 +85,7 @@ function OrderCakes() {
                                 required
                             />
                         </label>
-                        <input type="submit" value="Submit" />
+                        <input type="submit" value="Encomendar" id="order-button" />
                     </form>
                 </div>
             </div>
