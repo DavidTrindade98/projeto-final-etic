@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.9)), url("../images/productshero.jpg");
+         rgba(0, 0, 0, 0.9)), url("../images/Products/productshero.jpg");
     height: 520px;
     display: flex;
     justify-content: center;

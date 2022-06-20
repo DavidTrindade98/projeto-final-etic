@@ -6,6 +6,7 @@
     display: flex;
     padding-top: 25px;
     justify-content: space-between;
+    text-align: center;
 }
 
 
@@ -20,6 +21,12 @@
 
 .footer-box1 h1{
     font-weight: lighter;
+    
+}
+
+.footer-box1 p{
+    font-size: 20px;
+    line-height: 22px;
 }
 
 .footer-box2{
@@ -32,6 +39,11 @@
 
 .footer-box2 h1{
     font-weight: lighter;
+}
+
+.footer-box2 p{
+    font-size: 20px;
+    line-height: 22px;
 }
 
 
@@ -47,3 +59,4 @@
 .footer-box3 h1{
     font-weight: lighter;
 }
+

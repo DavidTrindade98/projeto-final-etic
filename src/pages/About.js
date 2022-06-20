@@ -3,7 +3,9 @@ import React from "react";
 function About() {
     return (
         <div className="about">
-            <div className="about-hero"></div>
+            <div className="about-hero">
+                <div className="about-hero-text">Sobre Nós</div>
+            </div>
             <div className="about-section">
                 <p>O seu ponto de encontro, situado
                     no Largo da República, no coração
