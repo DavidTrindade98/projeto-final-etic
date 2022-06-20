@@ -1,38 +1,49 @@
 .footer{
-    height: 200px;
+    height: 240px;
     width: 100%;
     background-color: black;
-    display: flex;
-    justify-content: center;
     font-family: 'Raleway', sans-serif;
-    align-items: center;
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-between;
 }
+
 
 .footer-box1{
     color: white;
     font-size: 45px;
     font-family: 'Great Vibes', cursive;
-    flex: 50%;
-    max-height: 200px;
+    max-height: 240px;
     padding-left: 140px;
     justify-content: flex-start;
+}
+
+.footer-box1 h1{
+    font-weight: lighter;
 }
 
 .footer-box2{
     color: white;
     font-size: 45px;
     font-family: 'Great Vibes', cursive;
-    flex: 50%;
-    max-height: 200px;
+    max-height: 240px;
     justify-content: center;
 }
+
+.footer-box2 h1{
+    font-weight: lighter;
+}
+
 
 .footer-box3{
     color: white;
     font-size: 45px;
     font-family: 'Great Vibes', cursive;
-    flex: 50%;
-    max-height: 200px;
+    max-height: 240px;
     padding-right: 140px;
     justify-content: flex-end;
+}
+
+.footer-box3 h1{
+    font-weight: lighter;
 }

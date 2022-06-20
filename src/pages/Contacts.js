@@ -6,6 +6,9 @@ function Contacts(){
             <div className="contacts-hero">
                 <div className="contacts-hero-text">Contactos</div>
             </div>
+            <div className="contacts-container">
+                
+            </div>
         </div>
     );
 }
