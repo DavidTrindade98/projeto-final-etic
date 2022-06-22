@@ -2,8 +2,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.9)), url("../images/Homepage/cafe.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.9)), url("../images/lafora3.jpg");
     height: 520px;
     display: flex;
     justify-content: center;
@@ -20,59 +20,79 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: auto;
     background-color: rgb(228, 208, 172);
     text-align: center;
     color: black;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: auto;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
-
-.about-section h1{
-    text-align: center;
-    line-height: 38px;
+.about-section h1 {
+    text-align: center; 
+    font-weight: 1000;
+    line-height: 52px;
 }
 
 .about-section p {
     text-align: center; 
     font-weight: 1000;
-    line-height: 60px;
+    line-height: 52px;
 }
 
 /*Grid section*/
 
-.dual-photo-grid{
+.quad-photo-grid{
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 400px;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 400px 400px;
     justify-items: center;
+    gap: 24px; 
+    background-color:rgb(228, 208, 172) ;
+    padding-bottom: 50px;
+    padding-right: 140px;
+    padding-left: 140px;
 }
 
 .about-photo-1 {
-    background-image: url('../images/About/largo-antigo.png');
+    background-image: url('../images/lafora.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    border-radius: 20px;
 }
 
 .about-photo-2 {
-    background-image: url('../images/About/largo-quadro.png');
+    background-image: url('../images/lafora3.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    border-radius: 20px;
 }
 
-.okdizem{
-    background-color: rgb(201, 201, 201);
-    text-align: center;
-    color: black;
+.about-photo-3 {
+    background-image: url('../images/fritos.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    border-radius: 20px;
+
 }
+
+.about-photo-4 {
+    background-image: url('../images/bolorei.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+
 
 
 

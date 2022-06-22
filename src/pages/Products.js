@@ -8,7 +8,7 @@ function Products() {
             </div>
             <div className="products-info">
                 <p>Pastelaria de fabrico próprio, onde todos os seus bolos são confeccionados dia após dia para que sejam de máxima qualidade.<br></br>
-                    Os nossos valores têm como referência a proximidade ao cliente, a inovação, a confiança e a responsabilidade social.<br></br>
+                    Os nossos valores têm como referência a proximidade ao cliente, a inovação, a confiança e a responsabilidade social.<br></br><br></br>
                     Aproveite para dar uma vista de olhos nos nosso catálogo de bolos de festa onde encontrará o bolo ideal para a sua comemoração!
                     <br></br>Venha visitar-nos em breve!</p>
             </div>
@@ -123,7 +123,7 @@ function Products() {
                         <p className="bolos__texto9">Semifrio de Morango</p>
                     </div>
                     <div className="bolos__box10">
-                        <p className="bolos__texto10">Cheesecake Dom Rodrigo</p>
+                        <p className="bolos__texto10">Dom Rodrigo</p>
                     </div>
                     <div className="bolos__box11">
                         <p className="bolos__texto11">Semifrio de Framboesas</p>
