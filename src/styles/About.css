@@ -28,7 +28,7 @@
     padding-right: 140px;
     padding-left: 140px;
     padding-bottom: 30px;
-    padding-top: 10px;
+    padding-top: 6px;
 }
 .about-section h1 {
     text-align: center; 
@@ -51,7 +51,8 @@
     justify-items: center;
     gap: 24px; 
     background-color:rgb(228, 208, 172) ;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     padding-right: 140px;
     padding-left: 140px;
 }

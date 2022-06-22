@@ -49,37 +49,52 @@
 /*Welcome Section*/
 
 .welcome {
-    width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
     background-color: rgb(228, 208, 172);
-    font-weight: 1000;
     text-align: center;
     color: black;
+    width: auto;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-bottom: 30px;
 }
 
-.welcome-title {
+.welcome h1 {
     font-family: 'Great Vibes', cursive;
+    text-align: center; 
+    font-weight: 1000;
+    line-height: 52px;
 }
 
 .welcome-subtitle {
     font-family: 'Raleway', sans-serif;
+    text-align: center; 
+    font-weight: 1000;
+    line-height: 52px;
 }
 
 /*Grid Section*/
 
 .homepage-grid-container {
-    width: 100%;
+    width: auto;
     display: grid;
     justify-items: center;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% auto;
     grid-template-rows: 500px 500px 500px;
     font-family: 'Raleway', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 140px;
+    padding-left: 140px;
+    gap: 40px;
 }
 
 .homepage-box1 {
     padding: 100px;
-    padding-left: 140px;
+    
 }
 
 .homepage-box2 {
@@ -88,6 +103,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    border-radius: 20px;
+
 }
 
 .homepage-box3 {
@@ -96,16 +113,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    border-radius: 20px;
 }
 
 .homepage-box4 {
     padding: 100px;
-    padding-right: 140px;
+    
 }
 
 .homepage-box5 {
     padding: 100px;
-    padding-left: 140px;
+
 }
 
 .homepage-box6 {
@@ -114,4 +132,5 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    border-radius: 20px;
 }

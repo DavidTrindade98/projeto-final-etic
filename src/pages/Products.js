@@ -7,10 +7,12 @@ function Products() {
                 <div className="products-hero-text">Produtos</div>
             </div>
             <div className="products-info">
-                <p>Pastelaria de fabrico próprio, onde todos os seus bolos são confeccionados dia após dia para que sejam de máxima qualidade.<br></br>
-                    Os nossos valores têm como referência a proximidade ao cliente, a inovação, a confiança e a responsabilidade social.<br></br><br></br>
-                    Aproveite para dar uma vista de olhos nos nosso catálogo de bolos de festa onde encontrará o bolo ideal para a sua comemoração!
-                    <br></br>Venha visitar-nos em breve!</p>
+                <p>
+                <h1>Veja já o nosso Catálogo</h1>
+                Pastelaria de fabrico próprio, onde todos os seus bolos são confeccionados dia após dia para que sejam de máxima qualidade.<br></br>
+                Os nossos valores têm como referência a proximidade ao cliente, a inovação, a confiança e a responsabilidade social.<br></br><br></br>
+                Aproveite para dar uma vista de olhos nos nosso catálogo de bolos de festa onde encontrará o bolo ideal para a sua comemoração!<br></br>
+                <br></br>Venha visitar-nos em breve!</p>
             </div>
             <div className="cafetaria-container">
                 <div className="cafetaria-image">

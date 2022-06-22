@@ -15,9 +15,10 @@ function Home() {
                 </div>
             </div>
             <div className="welcome">
-                <h1 className="welcome-title">Bem Vindo</h1>
-                <p className="welcome-subtitle">Descubra o gosto de uma das mais populares pastelarias em todo o Algarve!
-                    <br></br>Pasteis variados em diversos tipos de massas e sabores, é só vir experimentar!</p>
+                <p className="welcome-subtitle">
+                    <h1>Bem Vindo</h1>
+                    Descubra o gosto de uma das mais populares pastelarias em todo o Algarve!
+                    <br></br>Pastéis variados em diversos tipos de massas e sabores, é só vir experimentar!</p>
             </div>
             <div className="homepage-grid-container">
                 <div className="homepage-box1">
@@ -48,7 +49,7 @@ function Home() {
                         <button type="button" className="general-button">Encomendar</button>
                     </Link>
                 </div>
-                <div className="homepage-box6">Six</div>
+                <div className="homepage-box6"></div>
             </div>
         </div>
     );
