@@ -7,17 +7,25 @@ function OrderCakes() {
     const [tele, setTele] = useState("");
     const [date, setDate] = useState("");
     const [hour, setHour] = useState("");
+    const [caketype, setCaketype] = useState("");
+    const [bname, setBname] = useState("");
+    const [age, setAge] = useState("");
+    const [mass, setMass] = useState("");
 
     const onSubmit = (event) => {
         event.preventDefault();
 
-        alert(`Name: ${name} \r\nEmail: ${email} \r\nTelefone: ${tele} \r\nData de Entrega: ${date} \r\nHora de Entrega: ${hour}  `)
+        alert(`Name: ${name} \r\nEmail: ${email} \r\nTelefone: ${tele} \r\nData de Entrega: ${date} \r\nHora de Entrega: ${hour} \r\nTipo de Encomenda: ${caketype} \r\nNome do Aniversariante: ${bname} \r\nIdade do Aniversariante: ${age} \r\nTipo de Massa: ${mass}  `)
 
-        console.log("Name : " + name);
+        console.log("Nome : " + name);
         console.log("Email : " + email);
         console.log("Telefone : " + tele);
         console.log("Data de Entrega : " + date);
         console.log("Hora de Entrega : " + hour);
+        console.log("Tipo de Encomenda : " + caketype);
+        console.log("Nome do Aniversariante: " + bname);
+        console.log("Idade do Aniversariante: " + age);
+        console.log("Tipo de Massa: " + mass);
     }
 
     return (
@@ -26,8 +34,10 @@ function OrderCakes() {
                 <div className="encomendar-hero-text">Encomendar</div>
             </div>
             <div className="encomendar-section">
-                <p>Necessita de um bolo? Aniversário, casamento, batizado ou outro? Conte connosco!<br></br>
-                    As ideias partem de si, nós apenas concretizamos!<br></br>
+                <p>
+                    <h1>As ideias partem de si, nós apenas concretizamos!</h1>
+                    Necessita de um bolo? Aniversário, casamento, batizado ou outro? Conte connosco!<br></br>
+                    
                     Os nossos bolos de aniversário são confeccionados e decorados com a maior atenção ao detalhe.<br></br>
                     Desde bolos mais simples a verdadeiras obras de arte em três dimensões!</p>
             </div>
@@ -84,6 +94,48 @@ function OrderCakes() {
                                 onChange={(e) => setHour(e.target.value)}
                                 required
                             />
+                        </label>
+                        <label>
+                            <p>Tipo de Encomenda:</p>
+                            <select onChange={(e) => setCaketype(e.target.value)}>
+                                <option value="">Selecionar...</option>
+                                <option>Aniversário</option>
+                                <option>Casamento</option>
+                                <option>Batizado</option>
+                                <option>Bolo de Finalistas</option>
+                            </select>
+                        </label>
+                        <label>
+                            <p>Nome do Aniversariante:</p>
+                            <input
+                                name="name"
+                                type="text"
+                                value={bname}
+                                onChange={(e) => setBname(e.target.value)}
+                                required
+                            />
+                        </label>
+                        <label>
+                            <p>Idade do Aniversariante:</p>
+                            <input
+                                name="name"
+                                type="number"
+                                value={age}
+                                onChange={(e) => setAge(e.target.value)}
+                                required
+                            />
+                        </label>
+                        <label>
+                            <p>Tipo de Massa:</p>
+                            <select onChange={(e) => setMass(e.target.value)}>
+                                <option value="">Selecionar...</option>
+                                <option>Pao de Lo Tradicional</option>
+                                <option>Chocolate</option>
+                                <option>Amendoa</option>
+                                <option>Noz</option>
+                                <option>Red Velvet</option>
+                                <option>Cenoura</option>
+                            </select>
                         </label>
                         <input type="submit" value="Encomendar" id="order-button" />
                     </form>
