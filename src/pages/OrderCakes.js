@@ -14,13 +14,14 @@ function OrderCakes() {
     const [recheio, setRecheio] = useState("");
     const [cobert, setCobert] = useState("");
     const [peso, setPeso] = useState("");
-    const [msg, setMsg] = useState("");
+    const [form, setForm] = useState("");
+    
     
 
     const onSubmit = (event) => {
         event.preventDefault();
 
-        alert(`Name: ${name} \r\nEmail: ${email} \r\nTelefone: ${tele} \r\nData de Entrega: ${date} \r\nHora de Entrega: ${hour} \r\nTipo de Encomenda: ${caketype} \r\nNome do Aniversariante: ${bname} \r\nIdade do Aniversariante: ${age} \r\nTipo de Massa: ${mass} \r\nTipo de Recheio: ${recheio} \r\nTipo de Recheio: ${cobert} \r\nTipo de Recheio: ${peso} \r\nMensagem: ${msg}  `)
+        alert(`Name: ${name} \r\nEmail: ${email} \r\nTelefone: ${tele} \r\nData de Entrega: ${date} \r\nHora de Entrega: ${hour} \r\nTipo de Encomenda: ${caketype} \r\nNome do Aniversariante: ${bname} \r\nIdade do Aniversariante: ${age} \r\nTipo de Massa: ${mass} \r\nTipo de Recheio: ${recheio} \r\nCobertura: ${cobert} \r\nPeso: ${peso} \r\nFormato do Bolo: ${form}  `)
 
         console.log("Nome : " + name);
         console.log("Email : " + email);
@@ -33,8 +34,7 @@ function OrderCakes() {
         console.log("Tipo de Massa: " + mass);
         console.log("Tipo de Recheio: " + recheio);
         console.log("Cobertura: " + cobert);
-        console.log("Mensagem: " + msg);
-        
+        console.log("Formato do Bolo: " + form);
     }
 
     return (
@@ -183,16 +183,18 @@ function OrderCakes() {
                             </select>
                         </label>
                         <label>
-                            <p>Mensagem:</p>
-                            <input
-                                type="text"
-                                value={msg}
-                                id="mensagem"
-                                onChange={(e) => setMsg(e.target.value)}
-                                required
-                            />
+                            <p>Formato do Bolo:</p>
+                            <select onChange={(e) => setForm(e.target.value)}>
+                                <option value="">Selecionar...</option>
+                                <option>Rectangular</option>
+                                <option>Quadrado</option>
+                                <option>Triangular</option>
+                                <option>Oval</option>
+                            </select>
                         </label>
+                        <label>
                         <input type="submit" value="Encomendar" id="order-button" />
+                        </label>
                     </form>
                 </div>
             </div>
