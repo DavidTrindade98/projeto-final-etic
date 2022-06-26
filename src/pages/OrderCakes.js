@@ -11,11 +11,16 @@ function OrderCakes() {
     const [bname, setBname] = useState("");
     const [age, setAge] = useState("");
     const [mass, setMass] = useState("");
+    const [recheio, setRecheio] = useState("");
+    const [cobert, setCobert] = useState("");
+    const [peso, setPeso] = useState("");
+    const [msg, setMsg] = useState("");
+    
 
     const onSubmit = (event) => {
         event.preventDefault();
 
-        alert(`Name: ${name} \r\nEmail: ${email} \r\nTelefone: ${tele} \r\nData de Entrega: ${date} \r\nHora de Entrega: ${hour} \r\nTipo de Encomenda: ${caketype} \r\nNome do Aniversariante: ${bname} \r\nIdade do Aniversariante: ${age} \r\nTipo de Massa: ${mass}  `)
+        alert(`Name: ${name} \r\nEmail: ${email} \r\nTelefone: ${tele} \r\nData de Entrega: ${date} \r\nHora de Entrega: ${hour} \r\nTipo de Encomenda: ${caketype} \r\nNome do Aniversariante: ${bname} \r\nIdade do Aniversariante: ${age} \r\nTipo de Massa: ${mass} \r\nTipo de Recheio: ${recheio} \r\nTipo de Recheio: ${cobert} \r\nTipo de Recheio: ${peso} \r\nMensagem: ${msg}  `)
 
         console.log("Nome : " + name);
         console.log("Email : " + email);
@@ -26,6 +31,10 @@ function OrderCakes() {
         console.log("Nome do Aniversariante: " + bname);
         console.log("Idade do Aniversariante: " + age);
         console.log("Tipo de Massa: " + mass);
+        console.log("Tipo de Recheio: " + recheio);
+        console.log("Cobertura: " + cobert);
+        console.log("Mensagem: " + msg);
+        
     }
 
     return (
@@ -136,6 +145,52 @@ function OrderCakes() {
                                 <option>Red Velvet</option>
                                 <option>Cenoura</option>
                             </select>
+                        </label>
+                        <label>
+                            <p>Tipo de Recheio:</p>
+                            <select onChange={(e) => setRecheio(e.target.value)}>
+                                <option value="">Selecionar...</option>
+                                <option>Ovo</option>
+                                <option>Chocolate</option>
+                                <option>Frutos Vermelhos</option>
+                                <option>Doce de Leite</option>
+                                <option>Ferrero Rocher</option>
+                                <option>Doce de Morango</option>
+                            </select>
+                        </label>
+                        <label>
+                            <p>Coberturas:</p>
+                            <select onChange={(e) => setCobert(e.target.value)}>
+                                <option value="">Selecionar...</option>
+                                <option>Doce de Ovos</option>
+                                <option>Chocolate</option>
+                                <option>Frutos Vermelhos</option>
+                                <option>Doce de Leite</option>
+                                <option>Ferrero Rocher</option>
+                                <option>Doce de Morango</option>
+                            </select>
+                        </label>
+                        <label>
+                            <p>Peso:</p>
+                            <select onChange={(e) => setPeso(e.target.value)}>
+                                <option value="">Selecionar...</option>
+                                <option>Doce de Ovos</option>
+                                <option>Chocolate</option>
+                                <option>Frutos Vermelhos</option>
+                                <option>Doce de Leite</option>
+                                <option>Ferrero Rocher</option>
+                                <option>Doce de Morango</option>
+                            </select>
+                        </label>
+                        <label>
+                            <p>Mensagem:</p>
+                            <input
+                                type="text"
+                                value={msg}
+                                id="mensagem"
+                                onChange={(e) => setMsg(e.target.value)}
+                                required
+                            />
                         </label>
                         <input type="submit" value="Encomendar" id="order-button" />
                     </form>
