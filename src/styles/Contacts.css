@@ -25,11 +25,51 @@
     padding-left: 140px;
     display: grid;
     grid-template-columns: 50% auto;
-    grid-template-rows: 600px 400px;
+    grid-template-rows: auto 400px;
 }
 
 .contacts-grid h1{
     text-align: center;
+}
+
+.icons-social-contacts{
+    text-align: center;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    color: black;
+}
+
+.icons-social-contacts a{
+    color: black;
+}
+
+#facebook{
+    color: black;
+}
+
+#tripadvisor{
+    color: black;
+}
+
+#messenger{
+    color: black;
+}
+
+#facebook:hover{
+    color: rgb(228, 208, 172) ;
+}
+
+#tripadvisor:hover{
+    color: rgb(228, 208, 172); 
+}
+
+#menssenger:hover{
+    color: rgb(228, 208, 172); 
 }
 
 .contacts-grid-1{
@@ -40,11 +80,14 @@
 }
 
 .contacts-grid-2{
-    background-image: url('../images/Contacts/la-fora-contactos.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
+    border-radius: 20px;
+}
+
+iframe{
+    border: 0;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
 
