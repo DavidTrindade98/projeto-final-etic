@@ -1,11 +1,16 @@
 .footer{
-    height: 240px;
+    max-height: 240px;
     width: 100%;
     background-color: black;
     font-family: 'Raleway', sans-serif;
     display: flex;
-    padding-top: 25px;
+    padding-top: 22px;
+    padding-bottom: 22px;
     justify-content: space-between;
+    text-align: left;
+}
+
+.footer h1{
     text-align: center;
 }
 
@@ -58,5 +63,23 @@
 
 .footer-box3 h1{
     font-weight: lighter;
+}
+
+.icons-social{
+    text-align: center;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#face-icon:hover{
+    color: rgb(228, 208, 172);
+    cursor: pointer;
+}
+
+#trip-icon:hover{
+    color: rgb(228, 208, 172) ;
+    cursor: pointer;
 }
 

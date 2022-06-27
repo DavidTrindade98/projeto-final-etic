@@ -22,3 +22,9 @@ p{
   line-height: 38px;
   font-family: 'Raleway', sans-serif;
 }
+
+svg {
+  padding-right: 12px;
+  width: auto;
+
+}

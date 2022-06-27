@@ -19,8 +19,8 @@
 .contacts-grid{
     width: auto;
     gap: 20px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-right: 140px;
     padding-left: 140px;
     display: grid;
