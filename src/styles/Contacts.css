@@ -26,13 +26,18 @@
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-rows: 600px 400px;
-    background-color: rgb(228, 208, 172);
+}
+
+.contacts-grid h1{
+    text-align: center;
 }
 
 .contacts-grid-1{
-    text-align: center;
+    padding-left : 40px;
     color: black;
     font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid rgb(228, 208, 172);
 }
 
 .contacts-grid-2{
