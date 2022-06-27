@@ -174,12 +174,14 @@ function OrderCakes() {
                             <p>Peso:</p>
                             <select onChange={(e) => setPeso(e.target.value)}>
                                 <option value="">Selecionar...</option>
-                                <option>Doce de Ovos</option>
-                                <option>Chocolate</option>
-                                <option>Frutos Vermelhos</option>
-                                <option>Doce de Leite</option>
-                                <option>Ferrero Rocher</option>
-                                <option>Doce de Morango</option>
+                                <option>1 Kg</option>
+                                <option>1,5 Kg</option>
+                                <option>2 Kg</option>
+                                <option>2.5 Kg</option>
+                                <option>3.5 Kg</option>
+                                <option>4 Kg</option>
+                                <option>4,5 Kg</option>
+                                <option>5 Kg</option>
                             </select>
                         </label>
                         <label>

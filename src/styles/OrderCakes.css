@@ -82,14 +82,9 @@ form{
 
 label{
     width: fit-content;
-    height: fit-content;
-    align-self: center;
+    
     text-align: center;
     align-self:end;
-}
-
-label p {
-    line-height: 40px;
 }
 
 input {
