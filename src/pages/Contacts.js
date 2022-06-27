@@ -1,5 +1,5 @@
 import React from "react";
-import { FaClock, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaCalendarAlt } from "react-icons/fa";
+import { FaFacebook, FaTripadvisor, FaClock, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaCalendarAlt } from "react-icons/fa";
 
 function Contacts(){
     return(
@@ -15,7 +15,10 @@ function Contacts(){
                     <p><FaClock /> 07:30-20:00h</p>
                     <p><FaCalendarAlt /> Terça a Domingo (Até às 13:00h)</p>
                     <p><FaMapMarkerAlt /> Rua Dr. Virgilio Inglês, Largo da República 60A, 8700-032 Fuseta</p>
-                    
+                    <p>
+                        <FaFacebook />
+                        <FaTripadvisor />
+                    </p>
                 </div>
                 <div className="contacts-grid-2"></div>
                 <div className="contacts-grid-3"></div>
