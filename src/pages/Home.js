@@ -15,10 +15,11 @@ function Home() {
                 </div>
             </div>
             <div className="welcome">
-                <p className="welcome-subtitle">
+                <div className="welcome-text">
                     <h1>Bem Vindo</h1>
-                    Descubra o gosto de uma das mais populares pastelarias em todo o Algarve!
-                    <br></br>Pastéis variados em diversos tipos de massas e sabores, é só vir experimentar!</p>
+                    <p>Descubra o gosto de uma das mais populares pastelarias em todo o Algarve!<br></br>
+                    Pastéis variados em diversos tipos de massas e sabores, é só vir experimentar!</p>
+                </div>
             </div>
             <div className="homepage-grid-container">
                 <div className="homepage-box1">
@@ -34,8 +35,7 @@ function Home() {
                     <h1>Pastelaria</h1>
                     <p>Descubra o gosto do saber fazer de uma das mais
                         populares pastelarias em todo o Algarve, são diversos
-                        os tipos de pasteis de fabrico própio, é só vir
-                        experimentar!</p>
+                        os tipos de pasteis de fabrico própio.</p>
                     <Link to="/produtos">
                         <button type="button" className="general-button">Saber mais</button>
                     </Link>

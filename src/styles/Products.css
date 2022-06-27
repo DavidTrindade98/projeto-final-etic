@@ -28,18 +28,17 @@
     padding-right: 140px;
     padding-left: 140px;
     padding-bottom: 40px;
-    padding-top: 6px;
+    padding-top: 10px;
 }
 
 .products-info h1{
-    text-align: center; 
-    line-height: 50px;
+    text-align: center;
 }
 
 .products-info p {
+    padding-top: 10px;
     text-align: center; 
     font-weight: 1000;
-    line-height: 50px;
 }
 
 .cafetaria-container {

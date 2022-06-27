@@ -20,7 +20,6 @@
 
 .homepage-hero-subtitle {
     font-size: 28px;
-    line-height: 36px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -59,21 +58,20 @@
     width: auto;
     padding-right: 140px;
     padding-left: 140px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .welcome h1 {
     font-family: 'Great Vibes', cursive;
     text-align: center; 
     font-weight: 1000;
-    line-height: 52px;
 }
 
-.welcome-subtitle {
+.welcome-text {
     font-family: 'Raleway', sans-serif;
     text-align: center; 
     font-weight: 1000;
-    line-height: 52px;
 }
 
 /*Grid Section*/
@@ -93,7 +91,7 @@
 }
 
 .homepage-box1 {
-    padding: 100px;
+    padding: 80px;
 }
 
 .homepage-box2 {
@@ -115,13 +113,11 @@
 }
 
 .homepage-box4 {
-    padding: 100px;
-    
+    padding: 80px;
 }
 
 .homepage-box5 {
-    padding: 100px;
-
+    padding: 80px;
 }
 
 .homepage-box6 {
