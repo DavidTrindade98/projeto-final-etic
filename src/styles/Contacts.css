@@ -19,8 +19,8 @@
 .contacts-grid{
     width: auto;
     gap: 20px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-right: 140px;
     padding-left: 140px;
     display: grid;
@@ -38,8 +38,8 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 40px;
     color: black;
 }

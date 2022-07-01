@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaTripadvisor, FaClock, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaTripadvisor, FaClock, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebookMessenger } from "react-icons/fa";
 
 class Footer extends React.Component {
     render() {
@@ -20,6 +20,7 @@ class Footer extends React.Component {
                     <div className="icons-social">
                         <a href='https://www.facebook.com/profile.php?id=100057741576433'><FaFacebook id="face-icon"/></a>
                         <a href='https://www.tripadvisor.pt/Restaurant_Review-g1903584-d19337459-Reviews-Pastelaria_Trindade-Fuseta_Olhao_Faro_District_Algarve.html'><FaTripadvisor id="trip-icon" /></a>
+                        <a href='https://www.messenger.com/t/952944161523362'><FaFacebookMessenger id="menssenger"/></a>
                     </div>
                 </div>
             </div>

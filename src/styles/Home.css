@@ -63,13 +63,10 @@
 }
 
 .welcome h1 {
-    font-family: 'Great Vibes', cursive;
     text-align: center; 
-    font-weight: 1000;
 }
 
-.welcome-text {
-    font-family: 'Raleway', sans-serif;
+.welcome p {
     text-align: center; 
     font-weight: 1000;
 }

@@ -27,8 +27,7 @@
     width: auto;
     padding-right: 140px;
     padding-left: 140px;
-    padding-bottom: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .products-info h1{
@@ -36,7 +35,6 @@
 }
 
 .products-info p {
-    padding-top: 10px;
     text-align: center; 
     font-weight: 1000;
 }
@@ -51,7 +49,8 @@
     background-color: rgb(228, 208, 172);
     padding-left: 140px;
     padding-right: 140px;
-    padding-bottom: 38px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .cafetaria-image {
@@ -64,8 +63,7 @@
 
 .cafetaria-image h1 {
     font-size: 140px;
-    padding-top: 60px;
-    padding-left: 120px;
+    text-align: center;
     color: white;
 }
 
@@ -340,8 +338,8 @@
     grid-template-columns: 40% auto;
     grid-template-rows: 800px;
     background-color:rgb(228, 208, 172);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 140px;
     padding-right: 140px;
 }
@@ -356,8 +354,7 @@
 
 .pastelaria-image h1 {
     font-size: 140px;
-    padding-top: 60px;
-    padding-left: 120px;
+    text-align: center;
     color: white;
 }
 
@@ -734,8 +731,7 @@
 
 .bolos-image h1 {
     font-size: 140px;
-    padding-top: 60px;
-    padding-left: 120px;
+    text-align: center;
     color: white;
 }
 

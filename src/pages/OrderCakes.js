@@ -15,8 +15,8 @@ function OrderCakes() {
     const [cobert, setCobert] = useState("");
     const [peso, setPeso] = useState("");
     const [form, setForm] = useState("");
-    
-    
+
+
 
     const onSubmit = (event) => {
         event.preventDefault();
@@ -44,11 +44,11 @@ function OrderCakes() {
             </div>
             <div className="encomendar-section">
                 <p>
-                    <h1>As ideias partem de si, nós apenas concretizamos!</h1>
-                    Necessita de um bolo? Aniversário, casamento, batizado ou outro? Conte connosco!<br></br>
-                    
-                    Os nossos bolos de aniversário são confeccionados e decorados com a maior atenção ao detalhe.<br></br>
-                    Desde bolos mais simples a verdadeiras obras de arte em três dimensões!</p>
+                <h1>As ideias partem de si, nós apenas concretizamos!</h1>
+                Necessita de um bolo? Aniversário, casamento, batizado ou outro? Conte connosco!<br></br>
+                Os nossos bolos de aniversário são confeccionados e decorados com a maior atenção ao detalhe.<br></br>
+                Desde bolos mais simples a verdadeiras obras de arte em três dimensões!
+                </p>
             </div>
             <div className="encomendar-container">
                 <div className="encomendar-image"></div>
@@ -156,18 +156,20 @@ function OrderCakes() {
                                 <option>Doce de Leite</option>
                                 <option>Ferrero Rocher</option>
                                 <option>Doce de Morango</option>
+                                <option>Chantilly</option>
+                                <option>Sem Recheio</option>
                             </select>
                         </label>
                         <label>
-                            <p>Coberturas:</p>
+                            <p>Cobertura:</p>
                             <select onChange={(e) => setCobert(e.target.value)}>
                                 <option value="">Selecionar...</option>
                                 <option>Doce de Ovos</option>
                                 <option>Chocolate</option>
-                                <option>Frutos Vermelhos</option>
-                                <option>Doce de Leite</option>
-                                <option>Ferrero Rocher</option>
-                                <option>Doce de Morango</option>
+                                <option>Chantilly</option>
+                                <option>ButterCream</option>
+                                <option>Pasta Americana</option>
+                                <option>Sem Cobertura</option>
                             </select>
                         </label>
                         <label>
@@ -195,7 +197,7 @@ function OrderCakes() {
                             </select>
                         </label>
                         <label>
-                        <input type="submit" value="Encomendar" id="order-button" />
+                            <input type="submit" value="Encomendar" id="order-button" />
                         </label>
                     </form>
                 </div>

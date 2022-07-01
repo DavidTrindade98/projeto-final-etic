@@ -18,7 +18,7 @@ function Contacts(){
                     <div className="icons-social-contacts">
                         <a href='https://www.facebook.com/profile.php?id=100057741576433'><FaFacebook id="facebook"/></a>
                         <a href='https://www.tripadvisor.pt/Restaurant_Review-g1903584-d19337459-Reviews-Pastelaria_Trindade-Fuseta_Olhao_Faro_District_Algarve.html'><FaTripadvisor id="tripadvisor" /></a>
-                        <a href='https://www.facebook.com/profile.php?id=100057741576433'><FaFacebookMessenger id="menssenger"/></a>
+                        <a href='https://www.messenger.com/t/952944161523362'><FaFacebookMessenger id="menssenger"/></a>
                     </div>
                 </div>
                 <div className="contacts-grid-2">

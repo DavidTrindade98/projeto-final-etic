@@ -27,36 +27,29 @@
     width: auto;
     padding-right: 140px;
     padding-left: 140px;
-    padding-bottom: 6px;
-    padding-top: 6px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .encomendar-section h1{
     text-align: center;
-    color: black;
-    font-weight: bold;
-    line-height: 52px;
-    width: 100%;
 }
 
 .encomendar-section p{
     text-align: center;
-    color: black;
-    font-weight: bold;
-    line-height: 52px;
-    width: 100%;
+    font-weight: 1000;
 }
 
 .encomendar-container {
     display: grid;
     width: auto;
-    gap: 80px;
+    gap: 40px;
     padding-left: 140px;
     padding-right: 140px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     grid-template-columns: 40% auto;
-    grid-template-rows: max-content;
+    grid-template-rows: auto;
     background-color: rgb(255, 255, 255);
 }
 
@@ -68,21 +61,19 @@
     border-radius: 20px;
 }
 
-.encomendar-form-container{
-    align-items: center;
-    justify-content: center;
-}
-
 form{
     display: grid;
+    align-items: center;
+    justify-content: center;
     width: auto;
+    gap: 10px;
+    padding-bottom: 20px;
     grid-template-columns: 50% auto;
     grid-template-rows: 140px 140px 140px 140px 140px 140px 140px;
 }
 
 label{
     width: fit-content;
-    
     text-align: center;
     align-self:end;
 }

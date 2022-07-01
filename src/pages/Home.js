@@ -35,7 +35,7 @@ function Home() {
                     <h1>Pastelaria</h1>
                     <p>Descubra o gosto do saber fazer de uma das mais
                         populares pastelarias em todo o Algarve, são diversos
-                        os tipos de pasteis de fabrico própio.</p>
+                        os tipos de pastéis de fabrico própio.</p>
                     <Link to="/produtos">
                         <button type="button" className="general-button">Saber mais</button>
                     </Link>

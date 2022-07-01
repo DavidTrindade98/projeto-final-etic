@@ -5,12 +5,6 @@ body {
   box-sizing: border-box;  
 }
 
-.wrapper {
-	width: 1700px;
-	margin: 0 auto;
-  height: 100%;
-}
-
 h1{
   font-family: 'Great Vibes', cursive;
   font-size: 50px;
