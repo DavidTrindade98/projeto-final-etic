@@ -31,12 +31,7 @@
     padding-top: 20px;
 }
 
-.encomendar-section h1{
-    text-align: center;
-}
-
 .encomendar-section p{
-    text-align: center;
     font-weight: 1000;
 }
 
@@ -75,7 +70,7 @@ form{
 label{
     width: fit-content;
     text-align: center;
-    align-self:end;
+    align-self: end;
 }
 
 input {
