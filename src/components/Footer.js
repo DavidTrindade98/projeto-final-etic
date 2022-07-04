@@ -11,7 +11,7 @@ class Footer extends React.Component {
                     <p><FaEnvelope />Pastelariatrindade2018@gmail.com</p>
                 </div>
                 <div className="footer-box2">
-                    <h1>Horario de Atendimento</h1>
+                    <h1>Horário de Atendimento</h1>
                     <p><FaClock /> Terça a Domingo das 07:30-20:00h</p>
                     <p><FaMapMarkerAlt />Rua Dr. Virgilio Inglês, Largo da República 60A, 8700-032 Fuseta</p>
                 </div>

@@ -47,7 +47,7 @@ function OrderCakes() {
                     <h1>As ideias partem de si, nós apenas concretizamos!</h1>
                     Necessita de um bolo? Aniversário, casamento, batizado ou outro? Conte connosco!<br></br>
                     Os nossos bolos de aniversário são confeccionados e decorados com a maior atenção ao detalhe.<br></br>
-                    Desde bolos mais simples a verdadeiras obras de arte em três dimensões!
+                    Desde bolos mais simples a verdadeiras obras de arte!
                 </p>
             </div>
             <div className="encomendar-container">
@@ -111,7 +111,7 @@ function OrderCakes() {
                                 <option>Aniversário</option>
                                 <option>Casamento</option>
                                 <option>Batizado</option>
-                                <option>Bolo de Finalistas</option>
+                                <option>Outro</option>
                             </select>
                         </label>
                         <label>
@@ -192,8 +192,7 @@ function OrderCakes() {
                                 <option value="">Selecionar...</option>
                                 <option>Rectangular</option>
                                 <option>Quadrado</option>
-                                <option>Triangular</option>
-                                <option>Oval</option>
+                                <option>Redondo</option>
                             </select>
                         </label>
                         <label>

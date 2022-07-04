@@ -12,7 +12,7 @@ function About() {
                     O seu ponto de encontro, situado
                     no Largo da República, no coração
                     da vila fusetense.<br></br>
-                    A Pastelaria Trindade, com início em 2017, destaca-se na produção de bolos, pasteis e outros complementos.<br></br><br></br>
+                    A Pastelaria Trindade, com início em 2018, destaca-se na produção de bolos, pastéis e outros complementos.<br></br><br></br>
                     Sempre focados em fazer mais e melhor, desde a data de inicio que desenvolvemos novas técnicas de <br></br> confecção adaptando os nossos produtos e serviços sempre em prol do tipo de cliente e produto que deseja.<br></br>
                     <br></br>Pretendemos estar sempre mais perto dos nossos clientes, bem como primamos para que<br></br> os nossos produtos cheguem até eles, com a máxima qualidade possível.
                 </p>
