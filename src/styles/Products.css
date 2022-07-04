@@ -7,10 +7,10 @@
     height: 520px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .products-hero-text {
-    align-self: center;
     font-family: 'Great Vibes', cursive;
     font-size: 140px;
     color: white;

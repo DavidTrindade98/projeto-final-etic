@@ -18,7 +18,7 @@ function Home() {
                 <div className="welcome-text">
                     <h1>Bem Vindo</h1>
                     <p>Descubra o gosto de uma das mais populares pastelarias em todo o Algarve!<br></br>
-                    Pastéis variados em diversos tipos de massas e sabores, é só vir experimentar!</p>
+                        Pastéis variados em diversos tipos de massas e sabores, é só vir experimentar!</p>
                 </div>
             </div>
             <div className="homepage-grid-container">

@@ -8,12 +8,12 @@ function Products() {
             </div>
             <div className="products-info">
                 <p>
-                <h1>Veja já o nosso Catálogo</h1>
-                <p>Pastelaria de fabrico próprio, onde todos os seus bolos , incluindo regionais do Algarve, são <br></br> confeccionados dia após dia para que sejam de máxima qualidade.
-                <br></br><br></br>Os nossos valores têm como referência a proximidade ao cliente, a inovação,<br></br> a confiança e a responsabilidade social.
-                <br></br><br></br>Aproveite para dar uma vista de olhos nos nosso catálogo de bolos de festa onde encontrará <br></br> o bolo ideal para a sua comemoração!
-                <br></br>
-                <br></br>Venha visitar-nos em breve!</p>
+                    <h1>Veja já o nosso Catálogo</h1>
+                    <p>Pastelaria de fabrico próprio, onde todos os seus bolos , incluindo regionais do Algarve, são <br></br> confeccionados dia após dia para que sejam de máxima qualidade.
+                        <br></br><br></br>Os nossos valores têm como referência a proximidade ao cliente, a inovação,<br></br> a confiança e a responsabilidade social.
+                        <br></br><br></br>Aproveite para dar uma vista de olhos nos nosso catálogo de bolos de festa onde encontrará <br></br> o bolo ideal para a sua comemoração!
+                        <br></br>
+                        <br></br>Venha visitar-nos em breve!</p>
                 </p>
             </div>
             <div className="cafetaria-container">

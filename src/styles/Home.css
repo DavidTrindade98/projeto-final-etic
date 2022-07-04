@@ -15,18 +15,15 @@
 .homepage-hero-title {
     font-size: 64px;
     font-weight: lighter;
-    font-family: 'Great Vibes', cursive;
 }
 
 .homepage-hero-subtitle {
     font-size: 28px;
-    font-family: 'Raleway', sans-serif;
 }
 
 .homepage-hero-subtitle2 {
     font-size: 28px;
     padding-top: 30px;
-    font-family: 'Raleway', sans-serif;
 }
 
 .general-button {
@@ -35,14 +32,16 @@
     background-color: rgb(228, 208, 172);
     border-radius: 50px;
     height: 60px;
-    width: 220px;
+    width: 260px;
     font-size: 20px;
     font-weight: 1000;
     font-family: 'Raleway', sans-serif;
 }
 
-.general-button:hover{
+.general-button:hover {
     cursor: pointer;
+    transform: scale(106%);
+    font-size: 21px;
 }
 
 /*Welcome Section*/

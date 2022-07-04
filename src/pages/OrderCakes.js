@@ -21,7 +21,7 @@ function OrderCakes() {
     const onSubmit = (event) => {
         event.preventDefault();
 
-        alert(`Name: ${name} \r\nEmail: ${email} \r\nTelefone: ${tele} \r\nData de Entrega: ${date} \r\nHora de Entrega: ${hour} \r\nTipo de Encomenda: ${caketype} \r\nNome do Aniversariante: ${bname} \r\nIdade do Aniversariante: ${age} \r\nTipo de Massa: ${mass} \r\nTipo de Recheio: ${recheio} \r\nCobertura: ${cobert} \r\nPeso: ${peso} \r\nFormato do Bolo: ${form}  `)
+        alert(`Nome: ${name} \r\nEmail: ${email} \r\nTelefone: ${tele} \r\nData de Entrega: ${date} \r\nHora de Entrega: ${hour} \r\nTipo de Encomenda: ${caketype} \r\nNome do Aniversariante: ${bname} \r\nIdade do Aniversariante: ${age} \r\nTipo de Massa: ${mass} \r\nTipo de Recheio: ${recheio} \r\nCobertura: ${cobert} \r\nPeso: ${peso} \r\nFormato do Bolo: ${form}  `)
 
         console.log("Nome : " + name);
         console.log("Email : " + email);
@@ -44,10 +44,10 @@ function OrderCakes() {
             </div>
             <div className="encomendar-section">
                 <p>
-                <h1>As ideias partem de si, nós apenas concretizamos!</h1>
-                Necessita de um bolo? Aniversário, casamento, batizado ou outro? Conte connosco!<br></br>
-                Os nossos bolos de aniversário são confeccionados e decorados com a maior atenção ao detalhe.<br></br>
-                Desde bolos mais simples a verdadeiras obras de arte em três dimensões!
+                    <h1>As ideias partem de si, nós apenas concretizamos!</h1>
+                    Necessita de um bolo? Aniversário, casamento, batizado ou outro? Conte connosco!<br></br>
+                    Os nossos bolos de aniversário são confeccionados e decorados com a maior atenção ao detalhe.<br></br>
+                    Desde bolos mais simples a verdadeiras obras de arte em três dimensões!
                 </p>
             </div>
             <div className="encomendar-container">
@@ -127,7 +127,7 @@ function OrderCakes() {
                         <label>
                             <p>Idade do Aniversariante:</p>
                             <input
-                                name="name"
+                                name="age"
                                 type="number"
                                 value={age}
                                 onChange={(e) => setAge(e.target.value)}

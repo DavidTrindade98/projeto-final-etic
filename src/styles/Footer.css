@@ -1,70 +1,65 @@
-.footer{
+.footer {
     max-height: 240px;
     width: 100%;
     background-color: black;
     font-family: 'Raleway', sans-serif;
     display: flex;
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: space-between;
     text-align: left;
 }
 
-.footer h1{
+.footer h1 {
     text-align: center;
 }
 
-.footer-box1{
+.footer-box1 {
     color: white;
     font-size: 45px;
     font-family: 'Great Vibes', cursive;
     max-height: 240px;
     padding-left: 140px;
-    justify-content: flex-start;
 }
 
-.footer-box1 h1{
+.footer-box1 h1 {
     font-weight: lighter;
-    
 }
 
-.footer-box1 p{
+.footer-box1 p {
     font-size: 20px;
     line-height: 22px;
 }
 
-.footer-box2{
+.footer-box2 {
     color: white;
     font-size: 45px;
     font-family: 'Great Vibes', cursive;
     max-height: 240px;
-    justify-content: center;
 }
 
-.footer-box2 h1{
+.footer-box2 h1 {
     font-weight: lighter;
 }
 
-.footer-box2 p{
+.footer-box2 p {
     font-size: 20px;
     line-height: 22px;
 }
 
-
-.footer-box3{
+.footer-box3 {
     color: white;
     font-size: 45px;
     font-family: 'Great Vibes', cursive;
     max-height: 240px;
     padding-right: 140px;
-    justify-content: flex-end;
 }
 
-.footer-box3 h1{
+.footer-box3 h1 {
     font-weight: lighter;
 }
 
-.icons-social{
+.icons-social {
     text-align: center;
     font-size: 42px;
     display: flex;
@@ -72,13 +67,20 @@
     gap: 10px;
 }
 
-#face-icon:hover{
+#face-icon:hover {
     color: rgb(228, 208, 172);
     cursor: pointer;
+    transform: scale(107%);
 }
 
-#trip-icon:hover{
-    color: rgb(228, 208, 172) ;
+#trip-icon:hover {
+    color: rgb(228, 208, 172);
     cursor: pointer;
+    transform: scale(107%);
 }
 
+#msg-icon:hover {
+    color: rgb(228, 208, 172);
+    cursor: pointer;
+    transform: scale(107%);
+}

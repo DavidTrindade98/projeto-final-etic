@@ -1,22 +1,22 @@
-.encomendar-hero{
+.encomendar-hero {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.9)), url("../images/OrderCakes/encomendar-hero.jpg");
+            rgba(0, 0, 0, 0.9)), url("../images/OrderCakes/encomendar-hero.jpg");
     height: 520px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.encomendar-hero-text{
-    align-self: center;
+.encomendar-hero-text {
     font-family: 'Great Vibes', cursive;
     font-size: 140px;
     color: white;
 }
 
-.encomendar-section{
+.encomendar-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@
     padding-top: 20px;
 }
 
-.encomendar-section p{
+.encomendar-section p {
     font-weight: 1000;
 }
 
@@ -48,7 +48,7 @@
     background-color: rgb(255, 255, 255);
 }
 
-.encomendar-image{
+.encomendar-image {
     background-image: url('../images/OrderCakes/paodelo.jpg');
     background-position: center;
     background-size: cover;
@@ -56,7 +56,7 @@
     border-radius: 20px;
 }
 
-form{
+form {
     display: grid;
     align-items: center;
     justify-content: center;
@@ -67,7 +67,7 @@ form{
     grid-template-rows: 140px 140px 140px 140px 140px 140px 140px;
 }
 
-label{
+label {
     width: fit-content;
     text-align: center;
     align-self: end;
@@ -85,15 +85,21 @@ input {
     border-radius: 20px;
 }
 
-#order-button{
-    grid-column-start: 2 ;
-    grid-column-end: 3 ;
+#order-button {
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 7;
     grid-row-end: 8;
     background-color: rgb(228, 208, 172);
 }
 
-select{
+#order-button:hover{
+    cursor: pointer;
+    transform: scale(106%);
+    font-size: 18px;
+}
+
+select {
     text-align: center;
     border: 1px solid rgb(228, 208, 172);
     height: 48px;
@@ -104,6 +110,3 @@ select{
     background-color: white;
     border-radius: 20px;
 }
-
-
-

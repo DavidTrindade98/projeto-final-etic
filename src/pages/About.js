@@ -8,7 +8,7 @@ function About() {
             </div>
             <div className="about-section">
                 <p>
-                <h1>A Nossa História</h1>
+                    <h1>A Nossa História</h1>
                     O seu ponto de encontro, situado
                     no Largo da República, no coração
                     da vila fusetense.<br></br>

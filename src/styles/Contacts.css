@@ -1,22 +1,22 @@
-.contacts-hero{
+.contacts-hero {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.9)), url("../images/Contacts/lafora2.jpg");
+            rgba(0, 0, 0, 0.9)), url("../images/Contacts/lafora2.jpg");
     height: 520px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.contacts-hero-text{
-    align-self: center;
+.contacts-hero-text {
     font-family: 'Great Vibes', cursive;
     font-size: 140px;
     color: white;
 }
 
-.contacts-grid{
+.contacts-grid {
     width: auto;
     gap: 20px;
     padding-top: 40px;
@@ -28,70 +28,76 @@
     grid-template-rows: auto 400px;
 }
 
-.contacts-grid h1{
+.contacts-grid h1 {
     text-align: center;
 }
 
-.icons-social-contacts{
-    text-align: center;
+.icons-social-contacts {
     font-size: 42px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 40px;
+    padding-right: 40px;
     color: black;
 }
 
-.icons-social-contacts a{
+.icons-social-contacts a {
     color: black;
 }
 
-#facebook{
+#facebook {
     color: black;
 }
 
-#tripadvisor{
+#tripadvisor {
     color: black;
 }
 
-#messenger{
+#messenger {
     color: black;
 }
 
-#facebook:hover{
-    color: rgb(228, 208, 172) ;
+#facebook:hover {
+    color: rgb(228, 208, 172);
+    cursor: pointer;
+    transform: scale(107%);
 }
 
-#tripadvisor:hover{
-    color: rgb(228, 208, 172); 
+#tripadvisor:hover {
+    color: rgb(228, 208, 172);
+    cursor: pointer;
+    transform: scale(107%);
 }
 
-#menssenger:hover{
-    color: rgb(228, 208, 172); 
+#messenger:hover {
+    color: rgb(228, 208, 172);
+    cursor: pointer;
+    transform: scale(107%);
 }
 
-.contacts-grid-1{
-    padding-left : 40px;
+.contacts-grid-1 {
+    padding-left: 40px;
     color: black;
     border-radius: 20px;
     border: 2px solid rgb(228, 208, 172);
 }
 
-.contacts-grid-2{
+.contacts-grid-2 {
     width: 100%;
     border-radius: 20px;
 }
 
-iframe{
+iframe {
     border: 0;
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
 
-.contacts-grid-3{
+.contacts-grid-3 {
     background-image: url('../images/Contacts/la-fora-contacts2.jpg');
     background-position: center;
     background-size: cover;
@@ -100,7 +106,7 @@ iframe{
     border-radius: 20px;
 }
 
-.contacts-grid-4{
+.contacts-grid-4 {
     background-image: url('../images/Contacts/door-contacts.jpg');
     background-position-y: -150px;
     background-size: cover;

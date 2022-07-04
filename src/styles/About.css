@@ -7,10 +7,10 @@
     height: 520px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .about-hero-text {
-    align-self: center;
     font-family: 'Great Vibes', cursive;
     font-size: 140px;
     color: white;
@@ -41,13 +41,13 @@
 
 /*Grid section*/
 
-.quad-photo-grid{
+.quad-photo-grid {
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-rows: 400px 400px;
     justify-items: center;
-    gap: 20px; 
-    background-color:rgb(228, 208, 172) ;
+    gap: 20px;
+    background-color: rgb(228, 208, 172);
     padding-bottom: 40px;
     padding-top: 40px;
     padding-right: 140px;
@@ -90,10 +90,3 @@
     width: 100%;
     border-radius: 20px;
 }
-
-
-
-
-
-
-

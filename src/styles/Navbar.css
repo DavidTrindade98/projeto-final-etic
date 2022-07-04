@@ -15,17 +15,16 @@ nav {
     flex: 50%;
     max-height: 120px;
     padding-left: 140px;
-    justify-content: flex-start;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
     transition: 0.35s ease-in-out;
 }
 
-a:hover{
-    color:rgb(228, 208, 172);; 
+a:hover {
+    color: rgb(228, 208, 172);
 }
 
 ul {
@@ -40,13 +39,8 @@ ul {
 
 li {
     list-style-type: none;
-    display: inline-flex;
 }
 
-li:hover{
+li:hover {
     transform: scale(108%);
 }
-
-
-
-
